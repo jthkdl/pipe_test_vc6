@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pipe_master - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSPD7.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/pipe_master.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\PC\VendingMachine\test\kingsea_lib20170803115322\pipe_master\pipe_masterDlg.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPD7.tmp" 
+Creating temporary file "C:\WINDOWS\TEMP\RSPD8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/pipe_master.pdb" /debug /machine:I386 /out:"Debug/pipe_master.exe" /pdbtype:sept 
+.\Debug\ExecPM.obj
+.\Debug\pipe_master.obj
+.\Debug\pipe_masterDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\pipe_master.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPD8.tmp"
+<h3>Output Window</h3>
+Compiling...
+pipe_masterDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+pipe_master.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
